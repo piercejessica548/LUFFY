@@ -1,0 +1,127 @@
+[
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/megatron_weight_loaders.py",
+    "line": 325,
+    "text": "(pad to be divided by 4)"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/megatron_weight_loaders.py",
+    "line": 337,
+    "text": "remove dependencies from megatron"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/llm.py",
+    "line": 147,
+    "text": "check usagecontext"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/llm.py",
+    "line": 170,
+    "text": "(sgm): we can optimize it by making the dataloader yield List[int] without padding."
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/llm.py",
+    "line": 186,
+    "text": "(shengguangming): can be optimzied by rewrite the Sampler._get_logprobs() logits"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/llm_engine_sp.py",
+    "line": 174,
+    "text": "(woosuk): Print more configs in debug mode."
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/llm_engine_sp.py",
+    "line": 336,
+    "text": "(sgm): add for verl but we may not tokenizer in Rollout"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/llm_engine_sp.py",
+    "line": 345,
+    "text": "check whether we should rebuild the CUDAGraph every iter when offload/load KVCache"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/megatron_weight_loaders.py",
+    "line": 68,
+    "text": "check megatron"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/megatron_weight_loaders.py",
+    "line": 255,
+    "text": "need to implement a general way to deal with prefix"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/megatron_weight_loaders.py",
+    "line": 273,
+    "text": "(shengguangming): latest commit in vllm fix awq for this function and add load_weights"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/model_loader.py",
+    "line": 170,
+    "text": "(sgm): This is a hack, we need to register the load_weight() func for each model in vllm"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/model_loader.py",
+    "line": 273,
+    "text": "(sgm): This is a hack, we need to register the load_weight() func for each model in vllm"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/parallel_state.py",
+    "line": 97,
+    "text": "(sgm): deviate from the v0.5.4, not pp now"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/parallel_state.py",
+    "line": 144,
+    "text": "check why True is not work in Ray trainer"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/parallel_state.py",
+    "line": 172,
+    "text": "check why True is not work in Ray trainer"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/parallel_state.py",
+    "line": 185,
+    "text": "init using device mesh (not support hybrid engine now)"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/parallel_state.py",
+    "line": 257,
+    "text": "check why True is not work in Ray trainer"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/parallel_state.py",
+    "line": 262,
+    "text": "init using device mesh (not support hybrid engine now)"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/spmd_gpu_executor.py",
+    "line": 73,
+    "text": "(sgm): verl not support speculative decode now"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/spmd_gpu_executor.py",
+    "line": 246,
+    "text": "(sgm): not implemented async executor yet"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/worker.py",
+    "line": 33,
+    "text": "(sgm): check why vllm has similar file in vllm.model_executor.parallel_utils.parallel_state"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/worker.py",
+    "line": 92,
+    "text": "we don't need driver"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/worker.py",
+    "line": 110,
+    "text": "(sgm): set correct model runner class"
+  },
+  {
+    "path": "luffy/verl/verl/third_party/vllm/vllm_v_0_6_3/worker.py",
+    "line": 311,
+    "text": "(sgm): check whether need this"
+  }
+]
