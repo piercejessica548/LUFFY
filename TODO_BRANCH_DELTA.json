@@ -1,0 +1,53 @@
+{
+  "changed_files": [
+    "luffy/deepscaler/utils.py",
+    "luffy/verl/verl/protocol.py"
+  ],
+  "removed_todos": [
+    {
+      "path": "luffy/deepscaler/utils.py",
+      "text": "Implement OpenAI API client initialization"
+    },
+    {
+      "path": "luffy/deepscaler/utils.py",
+      "text": "Add proper authentication handling"
+    },
+    {
+      "path": "luffy/deepscaler/utils.py",
+      "text": "Implement exponential backoff retry logic for rate limits"
+    },
+    {
+      "path": "luffy/deepscaler/utils.py",
+      "text": "Add comprehensive error handling for different API errors"
+    },
+    {
+      "path": "luffy/deepscaler/utils.py",
+      "text": "Implement response parsing and validation"
+    },
+    {
+      "path": "luffy/verl/verl/protocol.py",
+      "text": "Implement batch dimension folding for efficient processing"
+    },
+    {
+      "path": "luffy/verl/verl/protocol.py",
+      "text": "Add validation for batch size compatibility"
+    },
+    {
+      "path": "luffy/verl/verl/protocol.py",
+      "text": "Handle edge cases where batch_size is not divisible by new_batch_size"
+    },
+    {
+      "path": "luffy/verl/verl/protocol.py",
+      "text": "Implement batch dimension unfolding functionality"
+    },
+    {
+      "path": "luffy/verl/verl/protocol.py",
+      "text": "Add support for variable batch dimensions"
+    },
+    {
+      "path": "luffy/verl/verl/protocol.py",
+      "text": "Handle non-tensor batch data reshaping properly"
+    }
+  ],
+  "added_todos": []
+}
