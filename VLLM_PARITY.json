@@ -1,0 +1,26 @@
+[
+  {
+    "version": "vllm_v_0_3_1",
+    "readme_entries": 20,
+    "code_todos": 20,
+    "untracked": 0
+  },
+  {
+    "version": "vllm_v_0_4_2",
+    "readme_entries": 28,
+    "code_todos": 30,
+    "untracked": 2
+  },
+  {
+    "version": "vllm_v_0_5_4",
+    "readme_entries": 31,
+    "code_todos": 31,
+    "untracked": 0
+  },
+  {
+    "version": "vllm_v_0_6_3",
+    "readme_entries": 0,
+    "code_todos": 23,
+    "untracked": 23
+  }
+]
